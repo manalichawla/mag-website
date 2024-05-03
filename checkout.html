@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CHECKOUT</title>
+
+    <style>
+
+.center-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	/****** center box
+	width: 300px;
+	height: 300px;
+	border: solid 1px #aaa;
+	******/
+}
+
+.loader-circle-73 {
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	width: 70;
+	height: 70;
+	animation: loader-circle-73-spin 0.5s infinite linear;
+}
+.loader-circle-73 div {
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	border: 1px solid #bbb;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.loader-circle-73 div:nth-child(odd) {
+	border-top: none;
+	border-left: none;
+}
+.loader-circle-73 div:nth-child(even) {
+	border-bottom: none;
+	border-right: none;
+}
+.loader-circle-73 div:nth-child(2) {
+	border-width: 2px;
+	left: 0;
+	top: -4px;
+	width: 12px;
+	height: 12px;
+}
+.loader-circle-73 div:nth-child(3) {
+	border-width: 2px;
+	left: -1px;
+	top: 3px;
+	width: 18px;
+	height: 18px;
+}
+.loader-circle-73 div:nth-child(4) {
+	border-width: 3px;
+	left: -1px;
+	top: -4px;
+	width: 24px;
+	height: 24px;
+}
+.loader-circle-73 div:nth-child(5) {
+	border-width: 3px;
+	left: -1px;
+	top: 4px;
+	width: 32px;
+	height: 32px;
+}
+.loader-circle-73 div:nth-child(6) {
+	border-width: 4px;
+	left: 0;
+	top: -4px;
+	width: 40;
+	height: 40;
+}
+.loader-circle-73 div:nth-child(7) {
+	border-width: 4px;
+	left: 0;
+	top: 6px;
+	width: 50;
+	height: 50;
+}
+@keyframes loader-circle-73-spin {
+	from {
+		transform: rotate(360deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
+    </style>
+
+<link rel="stylesheet" type="text/css" href="my.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+       
+	   $("#div1").load("header.html");
+	 
+   });
+</script>
+
+<script>
+
+    
+</script>
+
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"><div class="center-body">
+        <div class="loader-circle-73">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+        </div></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+     
+   
+
+	<div id="div1"></div>
+
+<div class="h100 w1002 clr">
+
+<div class="h46 w25c clw mt70 left m480">
+
+<span class=" mt15 m30 left fs20" >Home</span>
+<span class=" mt15 m40 left fs20" >Layouts</span>
+<span class=" mt15 m40 left fs20" >Checkout</span>
+
+</div>
+</div> <br><br><br><br>
+<!-- ------------------------- -->
+
+<div class="h100 w902 m65 b1"><span class="left mt40 b m15 fs20">Have a coupon?</span><span class="left mt40 b m720 fs20 cr">Click here to enter your code?</span></div>
+
+<div class="h80 w1002 m65"><span class="b fs26 clrr left mt25">Biling details</span></div>
+
+<div class="h500 w902 m65  mt15">
+
+<div class="h500 w502  left">
+<div class="h100 w1002 ">
+
+<div class="h100 w502  left">
+<p class=" fs22">First name:</p>
+<input type="email" class="h30 w250 b1 "></div>
+
+<div class="h100 w492  left">
+<p class=" fs22">Last name:</p>
+<input type="email" class="h30 w250 b1 "></div></div>
+
+<p class=" fs22">Company Name (optional):</p>
+<div class="h30 w570 "><input type="text" class="h1002 w1002 b1"></div>
+
+<p class=" fs22">country:</p>
+<div class="h30 w570 "><select class="h1002 w1002">
+	<option>Argentina</option>
+    <option>canada</option>
+    <option>Egypt</option> 
+    <option>India</option>
+    <option>Turky</option>    
+</select></div>
+
+
+<div class="h100 w502  left">
+<p class=" fs22">Street address:</p>
+<input type="text" class="h30 w250 b1 "></div>
+
+
+<div class="h100 w492  left">
+<p class=" fs22">Town city:</p>
+<input type="text" class="h30 w250 b1 "></div>
+
+<p class="mt10 left">Postcode / ZIP (optional):</p>
+<textarea class="h30 w570"></textarea>
+
+
+
+</div>
+
+<!-- --------------- -->
+<div class="h500 w492  left">
+
+<p class=" fs22 m10">Phone number:</p>
+<div class="h30 w570 m15"><input type="number" class="h1002 w1002 b1"></div>
+
+<p class=" fs22 m10">Email Address:</p>
+<div class="h30 w570 m10"><input type="text" class="h1002 w1002 b1"></div>
+
+<input type="checkbox" class="mt15 m10">
+<span> Ship to a different address?</span>
+
+<p class="mt15 m25">Order notes (optional):</p>
+<textarea class="h100 w570 m10" placeholder="Notes about your order, e.g. special notes for delivery."></textarea>
+</div>
+</div>
+
+<div class="h80 w1002 m65"><span class="b fs26 clrr left mt25">Order</span></div>
+<div class="h500 w902 m65">
+
+<table>
+<tr>
+<td class="h40 w300 b1"><p class="fs20 b m10">Product</p></td>
+<td class="h40 w900 b1"><p class="fs20 b m10">Total</p></td>
+</tr>	
+
+<tr>
+<td class="h40 w300 b1"><p class="fs20 b m10">Wall color</p></td>
+<td class="h40 w900 b1"><p class="fs20 m10">$329.00</p></td>
+</tr>
+
+<tr>
+<td class="h40 w300 b1"><p class="fs20 b m10">Sub Total</p></td>
+<td class="h40 w900 b1"><p class="fs20 m10">$329.00</p></td>
+</tr>
+
+<tr>
+<td class="h40 w300 b1"><p class="fs20 b m10">Shipping</p></td>
+<td class="h40 w900 b1"><p class="fs20 m10">Enter your address to view shipping options.</p></td>
+</tr>
+
+
+<tr>
+<td class="h40 w300 b1"><p class="fs20 b m10">Total</p></td>
+<td class="h40 w900 b1"><p class="fs20 m10 b">$329.00</p></td>
+</tr>
+</table>
+
+<p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+
+<button class="btn10"><span>Proceed to checkout</span></div></button><br><br><br>
+<!-- ---------------------------------- -->
+<div class="h900 w1002 b1">
+<div class="bi26">   
+<div class="bs3">
+
+<div class="h50 w1002  mt25 left"><center><span class="c fs22 ">Find Us on Instagram</span></center></div>
+
+
+<div class="h160 w1002 left mt15">
+
+<div class="h150  w15c cly left m60">
+<div class="bi27"></div>
+</div>
+
+<div class="h150  w15c clr left ">
+<div class="bi28"></div>
+</div>
+<div class="h150  w15c clge left ">
+<div class="bi29"></div>
+</div>
+<div class="h150  w15c clb left ">
+<div class="bi30"></div>
+</div>
+<div class="h150  w15c cly left ">
+<div class="bi31"></div>
+</div>
+<div class="h150  w15c clr left ">
+<div class="bi29"></div>
+</div>
+</div>
+ <br>
+
+<div class="h300 w1002  mt300">
+
+<div class="h300 w30c m25 left">
+ 
+<div class="h40 w1002  mt25 "><span class="c fs26 m20">NewMag</span></div>
+<div class="h100 w1002  "> <p class="c fs15 m20">amet, consetetur sadipscing elitr, sed diam nonumy <br>
+eirmod tempor invidunt ut labore et dolore magna <br>
+aliquyam erat-</p></div>
+<div class="h40 w1002 ">
+<i class="fa fa-facebook c mt5 m20" aria-hidden="true"></i>
+<i class="fa fa-twitter c mt5 m10" aria-hidden="true"></i>
+<i class="fa fa-instagram c mt5 m10" aria-hidden="true"></i>
+</div>
+</div>
+<!-- -------------- -->
+<div class="h300 w19c  left">
+
+<div class="h40 w1002  mt25">
+ <span class="c fs26 m20">Categories</span></div> 
+
+<div class="h10 w1002  mt15 left"><span class="fs20 c m20">Entertainment</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Sports</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Polictics</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">National</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Blog</span></div>
+</div>
+<!-- --------------- -->
+<div class="h300 w19c  left">
+
+<div class="h40 w1002  mt25">
+ <span class="c fs26 m20">Popular Tags</span></div> 
+
+<div class="h10 w1002  mt15 left"><span class="fs20 c m20">Entertainment</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Sports</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Polictics</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">National</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">International</span></div>
+</div>
+<!-- ---------------------- -->
+
+<div class="h300 w30c  left">
+
+<div class="h40 w1002  mt25 "><span class="c fs26 m20">Newsletter</span></div>
+
+<div class="h100 w1002 "><p class="c fs15 m20">Dont miss Anything <br><br><br>
+Subscribe to our #newsletter
+</p></div>
+
+<div class="h50 w1002  mt25">
+
+<input type="email" class="in" placeholder="Enter email">
+<div class="di"><i class="fa fa-paper-plane c mt5 m5" aria-hidden="true"></i></div>
+</div>
+ </div>
+
+
+
+</div>
+</div> 
+</div>
+</div>
+
+
+</div>
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT US</title>
+
+	<style>
+
+		.center-body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			height: 100vh;
+			/****** center box
+			width: 300px;
+			height: 300px;
+			border: solid 1px #aaa;
+			******/
+		}
+		
+		.loader-circle-73 {
+			position: relative;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			width: 70;
+			height: 70;
+			animation: loader-circle-73-spin 0.5s infinite linear;
+		}
+		.loader-circle-73 div {
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			border: 1px solid #bbb;
+			position: absolute;
+			top: 2px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+		}
+		.loader-circle-73 div:nth-child(odd) {
+			border-top: none;
+			border-left: none;
+		}
+		.loader-circle-73 div:nth-child(even) {
+			border-bottom: none;
+			border-right: none;
+		}
+		.loader-circle-73 div:nth-child(2) {
+			border-width: 2px;
+			left: 0;
+			top: -4px;
+			width: 12px;
+			height: 12px;
+		}
+		.loader-circle-73 div:nth-child(3) {
+			border-width: 2px;
+			left: -1px;
+			top: 3px;
+			width: 18px;
+			height: 18px;
+		}
+		.loader-circle-73 div:nth-child(4) {
+			border-width: 3px;
+			left: -1px;
+			top: -4px;
+			width: 24px;
+			height: 24px;
+		}
+		.loader-circle-73 div:nth-child(5) {
+			border-width: 3px;
+			left: -1px;
+			top: 4px;
+			width: 32px;
+			height: 32px;
+		}
+		.loader-circle-73 div:nth-child(6) {
+			border-width: 4px;
+			left: 0;
+			top: -4px;
+			width: 40;
+			height: 40;
+		}
+		.loader-circle-73 div:nth-child(7) {
+			border-width: 4px;
+			left: 0;
+			top: 6px;
+			width: 50;
+			height: 50;
+		}
+		@keyframes loader-circle-73-spin {
+			from {
+				transform: rotate(360deg);
+			}
+			to {
+				transform: rotate(0deg);
+			}
+		}
+			</style>
+
+<link rel="stylesheet" type="text/css" href="my.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+       
+	   $("#div1").load("header.html");
+	 
+   });
+</script>
+
+
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"><div class="center-body">
+        <div class="loader-circle-73">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+         </div>
+        </div></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+     
+
+	<div id="div1"></div>
+
+<div class="h100 w1002 clr">
+
+<div class="h46 w25c clw mt70 left m480">
+
+<span class=" mt15 m30 left fs20" >Home</span>
+<span class=" mt15 m40 left fs20" >Layouts</span>
+<span class=" mt15 m40 left fs20" >Contact us</span>
+
+</div>
+</div> <br><br><br><br>
+<!-- ---------------------------- -->
+<div class="h700 w902 m65 ">
+
+<div class="h700 w602 left">
+<div class="h50 w1002 "><p class="fs22 b clrr">Contact us</p></div>
+<div class="h50 w1002 "><span class="clrr  left">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore <br>
+et dolore magna aliquyam erat, sed diam voluptua.</span></div>
+
+<div class="h100 w1002 ">
+<div class="h100 w502 left">
+<p class="fs22">Name:</p>
+<input type="text" class="h30 w902 b1">
+</div>
+
+<div class="h100 w492  left">
+<p class="fs22">Email Address:</p>
+<input type="email" class="h30 w902 b1">
+</div>
+</div>
+<!-- ----- -->
+<div class="h100 w1002 ">
+<p class="fs22">Website:</p>
+<input type="text" class="h30 w952 b1">
+</div>
+
+<div class="h200 w1002 ">
+<p class="fs22">Your message:</p>
+<textarea class="h150 w952 b1"></textarea>
+</div>
+
+<div class="h50 w1002 left mt50"><button class="btn12 fs16">Send message</button></div>
+
+</div>
+<!-- ----- -->
+<div class="h700 w39c m5 left">
+<div class="h50 w1002 m15"><p class="fs22 b clrr">Contact us</p></div>
+<div class="h50 w1002 m15"><span class="clrr">Lorem ipsum dolor sit amet, consetetur sadipscing <br>
+elitr</span></div>
+
+<div class="h50 w1002 m15">
+<button class="btn11 mt10 left"><i class="fa fa-location-arrow" aria-hidden="true"></i></button>
+<span class="left mt15 m10 clrr fs20">Address</span>
+</div>
+
+<div class="h50 w1002 m15">
+<button class="btn11 mt10 left"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+<span class="left mt15 m10 clrr fs20">[email protected]</span>
+</div>
+
+<div class="h50 w1002 m15">
+<button class="btn11 mt10 left"><i class="fa fa-phone" aria-hidden="true"></i>
+</button>
+<span class="left mt15 m10 clrr fs20">+123-45-6789</span>
+</div>
+
+<div class="h50 w1002 m15">
+<button class="btn11 mt10 left"><i class="fa fa-fax" aria-hidden="true"></i>
+</button>
+<span class="left mt15 m10 clrr fs20">+123-45-6789</span>
+</div>
+
+<div class="h50 w1002 m15">
+<button class="btn11 mt10 left"><i class="fa fa-star" aria-hidden="true"></i>
+</button>
+<span class="left mt15 m10 clrr fs20">www.blogmag.com</span>
+</div>
+
+</div>
+</div><br><br>
+
+<!-- ------- -->
+<div class="h400 w1002 ">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.585871897316!2d72.62783257400136!3d23.038973015718465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e87e685016def%3A0x1af6abf970892863!2sHi-TECH%20Institute%20of%20Information%20Technology%20-%20Tally%20Prime%20With%20GST%20Training%20%7C%20Web%20Designing%20%7C%20Php%20Course%20%7C%20Software%20Courses!5e0!3m2!1sen!2sin!4v1704951791715!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div><br>
+<!-- ---------------- -->
+
+<div class="h900 w1002 b1">
+<div class="bi26">   
+<div class="bs3">
+
+<div class="h50 w1002  mt25 left"><center><span class="c fs22 ">Find Us on Instagram</span></center></div>
+
+
+<div class="h160 w1002 left mt15">
+
+<div class="h150  w15c cly left m60">
+<div class="bi27"></div>
+</div>
+
+<div class="h150  w15c clr left ">
+<div class="bi28"></div>
+</div>
+<div class="h150  w15c clge left ">
+<div class="bi29"></div>
+</div>
+<div class="h150  w15c clb left ">
+<div class="bi30"></div>
+</div>
+<div class="h150  w15c cly left ">
+<div class="bi31"></div>
+</div>
+<div class="h150  w15c clr left ">
+<div class="bi29"></div>
+</div>
+</div>
+ <br>
+
+<div class="h300 w1002  mt300">
+
+<div class="h300 w30c m25 left">
+ 
+<div class="h40 w1002  mt25 "><span class="c fs26 m20">NewMag</span></div>
+<div class="h100 w1002  "> <p class="c fs15 m20">amet, consetetur sadipscing elitr, sed diam nonumy <br>
+eirmod tempor invidunt ut labore et dolore magna <br>
+aliquyam erat-</p></div>
+<div class="h40 w1002 ">
+<i class="fa fa-facebook c mt5 m20" aria-hidden="true"></i>
+<i class="fa fa-twitter c mt5 m10" aria-hidden="true"></i>
+<i class="fa fa-instagram c mt5 m10" aria-hidden="true"></i>
+</div>
+</div>
+<!-- -------------- -->
+<div class="h300 w19c  left">
+
+<div class="h40 w1002  mt25">
+ <span class="c fs26 m20">Categories</span></div> 
+
+<div class="h10 w1002  mt15 left"><span class="fs20 c m20">Entertainment</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Sports</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Polictics</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">National</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Blog</span></div>
+</div>
+<!-- --------------- -->
+<div class="h300 w19c  left">
+
+<div class="h40 w1002  mt25">
+ <span class="c fs26 m20">Popular Tags</span></div> 
+
+<div class="h10 w1002  mt15 left"><span class="fs20 c m20">Entertainment</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Sports</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">Polictics</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">National</span></div>
+<div class="h10 w1002  mt25 left"><span class="fs20 c m20">International</span></div>
+</div>
+<!-- ---------------------- -->
+
+<div class="h300 w30c  left">
+
+<div class="h40 w1002  mt25 "><span class="c fs26 m20">Newsletter</span></div>
+
+<div class="h100 w1002 "><p class="c fs15 m20">Dont miss Anything <br><br><br>
+Subscribe to our #newsletter
+</p></div>
+
+<div class="h50 w1002  mt25">
+
+<input type="email" class="in" placeholder="Enter email">
+<div class="di"><i class="fa fa-paper-plane c mt5 m5" aria-hidden="true"></i></div>
+</div>
+ </div>
+
+
+
+</div>
+</div> 
+</div>
+</div>
+
+</div>
+
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 3000);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
+
+</body>
+</html>
